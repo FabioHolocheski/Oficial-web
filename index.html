@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Lorem ipsum</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body class="fundo" >
+
+			<header class="cabecalho">
+					<h3> Lorem ipsum</h3>
+
+        	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis nisl gravida, blandit
+              augue vel, cursus urna. Donec rutrum vel mi vitae ultricies. </p>
+					<nav>
+						<ul class="textolink">
+
+								<a href="novo_artigo.html">Novo Artigo</a>
+								<a href="perfil.html">Perfil</a>
+						    <a href="index.html">Pagina Principal</a>
+
+
+						</ul>
+					</nav>
+
+			</header>
+
+			<hr />
+      <main>
+      <header class="artigo">
+			<div >
+	          <h2 style="text-align:center;"> Fuja de golpes digitais: dicas de como se proteger na internet</h2>
+			</div>
+			<div  >
+				<figure class="centralizarimg">
+					<img src="digital.jpg" alt="Fuja de golpes digitais" width="500px"  style="text-align:center;">
+				</figure>
+	          <p>Você sabia que, no Brasil, a cada 17 segundos, uma pessoa é vítima de uma tentativa de golpe que envolve roubo de identidade? É o que aponta um estudo divulgado pela Serasa Experian neste ano. Cada vez mais comum em todo o mundo, os chamados golpes digitais são discretos e, muitas vezes, fazem com que a vítima nem imagine que esteja acontecendo. Até que a surpresa aparece: nome sujo, dívidas anônimas feitas em seu nome e até crimes mais sérios surgem, como sonegações e abertura de empresas falsas com seu CPF. Por isso, listamos algumas dicas para você se proteger e fugir dos tipos de golpes mais comuns.</p>
+						<strong>1 – E-mails falsos (ou pishing)</strong>
+						<p>Muito cuidado ao abrir e-mails, principalmente os de bancos ou de órgãos públicos. Geralmente, eles são falsos. Evite fornecer informações bancárias ou pessoais sem necessidade – muito dificilmente, um banco irá pedir para você passar informações sigilosas por e-mail, exatamente por não ser um ambiente totalmente seguro.</p>
+						<strong>2 – Compras no final de ano</strong>
+						<p>É normal, nas festas de final de ano, o número de crimes digitais acontecerem em todo o país. Isso acontece porque o número de compras aumenta muito, com as grandes promoções das lojas online acontecendo o tempo inteiro. Mas, cuidado: nem sempre uma loja digital é 100% segura. Prefira realizar compras em lojas que você já conhece e confia, e desconfie de promoções milagrosas.</p>
+						<strong>3 – Cuidado com os apps!</strong>
+						<p>Com o crescimento e evolução dos smartphones, era de se esperar que usuários mal-intencionados também iriam começar a atacar os gadgets. Por isso, cuidado ao instalar um aplicativo cheio de facilidade: geralmente, eles irão roubar seus dados pessoais.</p>
+						<ul>
+	          	<li>Nome do autor: Frederico Felisbino</li>
+	          	<li>Data de Publicação: 11/07/2011</li>
+	          </ul>
+						<script>
+		        function incrementaValor(valorMaximo){
+		            var value = parseInt(document.getElementById('resultado').value,10);
+		            value = isNaN(value) ? 0 : value;
+		            if(value >= valorMaximo) {
+		                value = valorMaximo;
+		            }else{
+		                value++;
+		            }
+		            document.getElementById('resultado').value = value;
+		        }
+		        function decrementaValor(valorMinimo){
+		            var value = parseInt(document.getElementById('resultado').value,10);
+		            value = isNaN(value) ? 0 : value;
+		            if(value <= valorMinimo) {
+		                value = 0;
+		            }else{
+		                value--;
+		            }
+		            document.getElementById('resultado').value = value;
+		        }
+		    </script>
+					<div>
+						<a href="#" onclick="incrementaValor(10);return false;">Curtir</a>
+						<input class="label" name="resultado" id="resultado" value="0">
+						<a href="#" onclick="decrementaValor(0); return false;">Não Curtir</a>
+
+					</div>
+			</div>
+	          <section>
+							<div class="comentario">
+
+								<h3>Comentarios:</h3>
+							<div class="comentario">
+							<form >
+							  <label for="inp-txt">Nome: </label>
+		            <input class="posicionarlabel" id="chave" type="text" placeholder="Informe seu nome"/>
+							</div>
+							<div class="comentario">
+								<label>Comentario:</label>
+							 	<textarea  id="valor"></textarea>
+							</div>
+								<div class="comentario">
+
+											<button type="button" id="add" value="Guardar Dados" onclick="addComentario()" class="btn">Comentar</button>
+											<button type="reset" id="clearmot" value="Limpar Dados" onclick="limpaComentario()" class="btn">Exluir</button>
+								</form>
+								</div>
+								<div>
+									<div id="data"></div>
+								</div>
+
+							</div>
+						</section>
+
+			</header>
+
+    </main>
+      <aside>
+
+				<section>
+					<nav>
+            <h5>Links de Artigos</h5>
+            <ul>
+            	<li>www.artigosoline.com </li>
+            	<li>www.direitoartigos.com</li>
+              <li>www.webartigos.com.br</li>
+            </ul>
+
+            <b>Conteudos já publicados</b>
+            <ul>
+              <li>Gestão de Projetos</li>
+              <li>Analise de Sistemas</li>
+              <li>Modelagem Bpmn</li>
+              <li>Banco de dados</li>
+              <li>Programação Java</li>
+            </ul>
+            <input id="inp-text" type="text" placeholder="Informe o nome do artigo desejado"/>
+            <button type="submit">Buscar</button>
+					</nav>
+				</section>
+			</aside>
+
+
+		<div class="footer">
+				<hr />
+				<p  style="text-align:center;">Ano 2017 - Proprieario: Fabio Lima - email: fabiolima@gmail.com</p>
+		 </div>
+
+	</body>
+</html>
